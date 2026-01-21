@@ -6,7 +6,7 @@ import (
 
 func operators() {
 	var a = 15 + 25
-	fmt.Println(a)
+	fmt.Println("a = ", a)
 
 	var (
 		sum1 = 100 + 150
