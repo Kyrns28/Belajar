@@ -16,4 +16,5 @@ func operators() {
 	fmt.Println("Sum1 = ", sum1)
 	fmt.Println("Sum2 = ", sum2)
 	fmt.Println("Sum3 = ", sum3)
+	fmt.Println("Hellowwww")
 }
