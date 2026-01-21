@@ -13,7 +13,7 @@ func operators() {
 		sum2 = sum1 + 200
 		sum3 = sum2 + 500
 	)
-	fmt.Println(sum1)
-	fmt.Println(sum2)
-	fmt.Println(sum3)
+	fmt.Println("Sum1 = ", sum1)
+	fmt.Println("Sum2 = ", sum2)
+	fmt.Println("Sum3 = ", sum3)
 }
