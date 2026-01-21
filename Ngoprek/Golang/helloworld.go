@@ -5,6 +5,6 @@ import (
 )
 
 func helloWorld() {
-	f := "hellow \n" //
+	f := "hellowww \n" //
 	fmt.Println(f)
 }
