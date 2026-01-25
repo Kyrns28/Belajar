@@ -13,5 +13,7 @@ func main() {
 
 	// sliceCopy()
 
-	operators()
+	// operators()
+
+	condition()
 }
