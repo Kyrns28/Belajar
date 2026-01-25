@@ -64,6 +64,20 @@ func main(){
 	newSlice2[0] = "Kosong"
 	fmt.Println(newSlice) // output  : Kosong , Nur (karena masih dalam array yang sama sehingga ikut berubah)
 	fmt.Println(newSlice2) // output : kosong, Nur, Sepriana (karena masih dalam array yang sama sehingga ikut berubah)
+	fmt.Println()
 
+	fromSlice := days[:]
+	toSlice := make([]string, len(fromSlice), cap(fromSlice))
 
+	copy(toSlice, fromSlice)
+
+	fmt.Println(fromSlice)
+	fmt.Println(toSlice)
+	toSlice[0] = "tess"
+	fmt.Println(toSlice)
+	fmt.Println(fromSlice)
+
+	// Catatan tambahan perbedaan array dan slice
+	// iniArray := [...]int{1,2,3,4,5}
+	// iniSlice := []int{1,2,3,4,5}
 }
