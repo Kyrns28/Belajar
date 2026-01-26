@@ -5,16 +5,22 @@ import "fmt"
 func main() {
 	var a = 10
 	var b = 10
-	c := 20
+	c := 2
 	d := a + b*c
 
+	fmt.Println(a)
+	fmt.Println(b)
 	fmt.Println(d)
 
-	// Augmented assigment
-	var i = 10
-	i += 10 // i = i + 10
-	fmt.Println(i)
+	// assignment operator
+	var e = 10
+	e += 5
+	fmt.Println(e)
 
-	i += 5 // i = i + 5
-	fmt.Println(i)
+	// unary operator
+	f := 10
+	f++ // f = f+1
+	fmt.Println(f)
+	f-- // f=f-1
+	fmt.Println(f)
 }
