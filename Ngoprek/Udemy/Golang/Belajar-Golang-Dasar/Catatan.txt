@@ -6,13 +6,13 @@ x template warna
 
 
 #diterminal
-- pastikan sudah buat file go mod init dengan perintah "go mod init *nama Modul*"
+x pastikan sudah buat file go mod init dengan perintah "go mod init *nama Modul*"
 
 #kode kompilasi Go
-- diterminal jalankan kode "go build"
+x diterminal jalankan kode "go build"
 
 #Jalankan program
-- diterminal jalankan kode "./nama folder atau file yang akan dijalankan"
+x diterminal jalankan kode "./nama folder atau file yang akan dijalankan"
 
 # Menjalankan kode file tanpa kompilasi
-- diterminal jalankan kode "go run *nama file* "
+x diterminal jalankan kode "go run *nama file* "
