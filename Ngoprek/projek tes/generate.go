@@ -3,6 +3,8 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"math/rand"
+	"time"
 )
 
 func main() {
@@ -12,13 +14,14 @@ func main() {
 		fmt.Println("Gagal menjalankan file", err)
 		return
 	}
-
-	// fmt.Println(string(data))
-
 	content := string(data)
 	quotes := strings.Split(content, "\n")
 
-	for i, quote := range quotes{
-		fmt.Printf("%d. %s\n", i+1, quote)
-	}
+
+	rand.Seed(time.Now().UnixNano())
+	index := rand.Intn(len(quotes))
+
+	quote := quotes[index]
+
+	fmt.Println("Quote hari ini : ", quote)
 }
